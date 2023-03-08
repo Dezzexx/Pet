@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56f672c81de67624a8bcc6cf94b6a0dc, type: 3}
+  m_Name: AllPools
+  m_EditorClassIdentifier: 
+  FriendlyBaseOfUnitsPool:
+  - {fileID: 11400000, guid: 616d8bc6738a0fd49a468977804ff89a, type: 2}
+  - {fileID: 11400000, guid: 463a352342abe7146a2883b5a6b7bfb7, type: 2}
+  - {fileID: 11400000, guid: ac8f10beaf6399247a898af304ea84b2, type: 2}
+  - {fileID: 11400000, guid: 5d4fcffca210f004d968b8813c184b24, type: 2}
+  - {fileID: 11400000, guid: 37d3a964597a0f9449b8c4b4bbb7a732, type: 2}
+  - {fileID: 11400000, guid: 21051e321bdd84b4ea6f1ba511e46306, type: 2}
+  - {fileID: 11400000, guid: 3fda848599645ec4983e8a769cd4a286, type: 2}
+  FriendlyBaseOfUnitLvl1Pool: {fileID: 11400000, guid: 616d8bc6738a0fd49a468977804ff89a,
+    type: 2}
+  FriendlyBaseOfUnitLvl2Pool: {fileID: 11400000, guid: 463a352342abe7146a2883b5a6b7bfb7,
+    type: 2}
+  FriendlyBaseOfUnitLvl3Pool: {fileID: 11400000, guid: ac8f10beaf6399247a898af304ea84b2,
+    type: 2}
+  FriendlyBaseOfUnitLvl4Pool: {fileID: 11400000, guid: 5d4fcffca210f004d968b8813c184b24,
+    type: 2}
+  FriendlyBaseOfUnitLvl5Pool: {fileID: 11400000, guid: 37d3a964597a0f9449b8c4b4bbb7a732,
+    type: 2}
+  FriendlyBaseOfUnitLvl6Pool: {fileID: 11400000, guid: 21051e321bdd84b4ea6f1ba511e46306,
+    type: 2}
+  FriendlyBaseOfUnitLvl7Pool: {fileID: 11400000, guid: 3fda848599645ec4983e8a769cd4a286,
+    type: 2}
+  EnemyBaseOfUnitsPool:
+  - {fileID: 11400000, guid: b0d6a7554427daf458531c8346fe83e6, type: 2}
+  - {fileID: 11400000, guid: 75e19665c42eef84a854e75612bd5ebb, type: 2}
+  - {fileID: 11400000, guid: abdffabe29e25b04fa58d4ddf7aeb597, type: 2}
+  EnemyBaseOfUnitLvl1Pool: {fileID: 11400000, guid: b0d6a7554427daf458531c8346fe83e6,
+    type: 2}
+  EnemyBaseOfUnitLvl2Pool: {fileID: 11400000, guid: 75e19665c42eef84a854e75612bd5ebb,
+    type: 2}
+  EnemyBaseOfUnitLvl3Pool: {fileID: 11400000, guid: abdffabe29e25b04fa58d4ddf7aeb597,
+    type: 2}
+  FriendlyUnitsPool:
+  - {fileID: 11400000, guid: dfada3ce8ee30a34ba6823d3a94cc5ae, type: 2}
+  - {fileID: 11400000, guid: 74bedf3da20e3354386626904e9a4de4, type: 2}
+  - {fileID: 11400000, guid: 74e96c43ba4a76345995b8e84d369c12, type: 2}
+  - {fileID: 11400000, guid: c54deaa809c0f7943bc635e4ccd087a2, type: 2}
+  - {fileID: 11400000, guid: e223ea45d594e734497f4d2c7d550c0b, type: 2}
+  - {fileID: 11400000, guid: 53aef9bbe4aef744884401b6c777c241, type: 2}
+  - {fileID: 11400000, guid: 4a1893856467830478488638b4018166, type: 2}
+  FriendlyUnitLvl1Pool: {fileID: 11400000, guid: dfada3ce8ee30a34ba6823d3a94cc5ae,
+    type: 2}
+  FriendlyUnitLvl2Pool: {fileID: 11400000, guid: 74bedf3da20e3354386626904e9a4de4,
+    type: 2}
+  FriendlyUnitLvl3Pool: {fileID: 11400000, guid: 74e96c43ba4a76345995b8e84d369c12,
+    type: 2}
+  FriendlyUnitLvl4Pool: {fileID: 11400000, guid: c54deaa809c0f7943bc635e4ccd087a2,
+    type: 2}
+  FriendlyUnitLvl5Pool: {fileID: 11400000, guid: e223ea45d594e734497f4d2c7d550c0b,
+    type: 2}
+  FriendlyUnitLvl6Pool: {fileID: 11400000, guid: 53aef9bbe4aef744884401b6c777c241,
+    type: 2}
+  FriendlyUnitLvl7Pool: {fileID: 11400000, guid: 4a1893856467830478488638b4018166,
+    type: 2}
+  EnemyUnitsPool:
+  - {fileID: 11400000, guid: 25929f4c94ea4f345884119d591728e2, type: 2}
+  - {fileID: 11400000, guid: 629a9d0d70033f44e803a8daeeaff3d8, type: 2}
+  - {fileID: 11400000, guid: 0902fdb701d7e3249bd56a835b523611, type: 2}
+  - {fileID: 11400000, guid: ebd6230df16b8ea47a43f10e8b94ece8, type: 2}
+  - {fileID: 11400000, guid: 6ab6f6c571ceb8147aaf38e36957874e, type: 2}
+  - {fileID: 11400000, guid: e30519d497044344fa9a48938746ac94, type: 2}
+  - {fileID: 11400000, guid: d84902d3fe731cf4280009e788cc6c29, type: 2}
+  - {fileID: 11400000, guid: b0488620ecf2f104693a98b71cc9a358, type: 2}
+  - {fileID: 11400000, guid: d7d9d16f43d92914b9b8fa00695ad3fe, type: 2}
+  EnemyUnitLvl1Pool: {fileID: 11400000, guid: 25929f4c94ea4f345884119d591728e2, type: 2}
+  EnemyUnitLvl2Pool: {fileID: 11400000, guid: 629a9d0d70033f44e803a8daeeaff3d8, type: 2}
+  EnemyUnitLvl3Pool: {fileID: 11400000, guid: 0902fdb701d7e3249bd56a835b523611, type: 2}
+  EnemyUnitLvl4Pool: {fileID: 11400000, guid: ebd6230df16b8ea47a43f10e8b94ece8, type: 2}
+  EnemyUnitLvl5Pool: {fileID: 11400000, guid: 6ab6f6c571ceb8147aaf38e36957874e, type: 2}
+  EnemyUnitLvl6Pool: {fileID: 11400000, guid: e30519d497044344fa9a48938746ac94, type: 2}
+  EnemyUnitLvl7Pool: {fileID: 11400000, guid: d84902d3fe731cf4280009e788cc6c29, type: 2}
+  EnemyUnitLvl8Pool: {fileID: 11400000, guid: b0488620ecf2f104693a98b71cc9a358, type: 2}
+  EnemyUnitLvl9Pool: {fileID: 11400000, guid: d7d9d16f43d92914b9b8fa00695ad3fe, type: 2}
+  GridCellPool: {fileID: 11400000, guid: 69cf246f709b86048b05362632cbee16, type: 2}
+  GridCellOverlayPrefab: {fileID: 8482734942557392039, guid: f4fcfdadbc7c8594ca44cb67fda0dd1f,
+    type: 3}
+  FriendlyBaseOfUnitProjectilesPool:
+  - {fileID: 11400000, guid: ebfc7de3e11f75346a3d209814525838, type: 2}
+  - {fileID: 11400000, guid: 9bda8cf0739c70e49816d287ff24976d, type: 2}
+  - {fileID: 11400000, guid: 930b199f38b6d78439683faed9b2c454, type: 2}
+  - {fileID: 11400000, guid: 71eca23ca6f57fc478706ccfe3dbe835, type: 2}
+  - {fileID: 11400000, guid: 53fec6d30de0ba44b9897197c728eb6d, type: 2}
+  - {fileID: 11400000, guid: aa8cc74d735391f4b9d5237d92110967, type: 2}
+  FriendlyBaseProjectileLvl1Pool: {fileID: 11400000, guid: ebfc7de3e11f75346a3d209814525838,
+    type: 2}
+  FriendlyBaseProjectileLvl2Pool: {fileID: 11400000, guid: 9bda8cf0739c70e49816d287ff24976d,
+    type: 2}
+  FriendlyBaseProjectileLvl3Pool: {fileID: 11400000, guid: 930b199f38b6d78439683faed9b2c454,
+    type: 2}
+  FriendlyBaseProjectileLvl4Pool: {fileID: 11400000, guid: 71eca23ca6f57fc478706ccfe3dbe835,
+    type: 2}
+  FriendlyBaseProjectileLvl5Pool: {fileID: 11400000, guid: 53fec6d30de0ba44b9897197c728eb6d,
+    type: 2}
+  FriendlyBaseProjectileLvl6Pool: {fileID: 11400000, guid: aa8cc74d735391f4b9d5237d92110967,
+    type: 2}
+  EnemyBaseRocketProjectilePool: {fileID: 11400000, guid: 54544b86db16d3141ad9afbd1f3001ad,
+    type: 2}
+  UnitsParameterPool:
+  - {fileID: 11400000, guid: 9daa1b521b2096341ae0a35a8cbe6789, type: 2}
+  - {fileID: 11400000, guid: 1e838d44466635d4e8e51b5a62eb1273, type: 2}
+  - {fileID: 11400000, guid: a06ab29fcb19ee847b11d189e36e6e58, type: 2}
+  - {fileID: 11400000, guid: f60ca4b7014c05746874a773b56fa79f, type: 2}
+  - {fileID: 11400000, guid: 7d0c3b0da3878d045957b63c8efad7c8, type: 2}
+  - {fileID: 11400000, guid: 125f1494aee72924385264c87ebabf1a, type: 2}
+  - {fileID: 11400000, guid: 0e8c5f4a0f577ce4784d47973cff246a, type: 2}
+  UnitLvl1ParameterPool: {fileID: 11400000, guid: 9daa1b521b2096341ae0a35a8cbe6789,
+    type: 2}
+  UnitLvl2ParameterPool: {fileID: 11400000, guid: 1e838d44466635d4e8e51b5a62eb1273,
+    type: 2}
+  UnitLvl3ParameterPool: {fileID: 11400000, guid: a06ab29fcb19ee847b11d189e36e6e58,
+    type: 2}
+  UnitLvl4ParameterPool: {fileID: 11400000, guid: f60ca4b7014c05746874a773b56fa79f,
+    type: 2}
+  UnitLvl5ParameterPool: {fileID: 11400000, guid: 7d0c3b0da3878d045957b63c8efad7c8,
+    type: 2}
+  UnitLvl6ParameterPool: {fileID: 11400000, guid: 125f1494aee72924385264c87ebabf1a,
+    type: 2}
+  UnitLvl7ParameterPool: {fileID: 11400000, guid: 0e8c5f4a0f577ce4784d47973cff246a,
+    type: 2}
+  UnitShootEffectPool: {fileID: 11400000, guid: ce8770ce9a8f9aa4fb2a3e7583bc0332,
+    type: 2}
+  EnemyUnitDeadEffectPool: {fileID: 11400000, guid: 78848c73cbc6ba442b938fb5b197e1d5,
+    type: 2}
+  FriendlyUnitDeadEffectPool: {fileID: 11400000, guid: 33dba521976bab94291eadb321a8706e,
+    type: 2}
+  ExplosionEffectPool: {fileID: 11400000, guid: 77b8177642dba2249b51952d248c3000,
+    type: 2}
+  FrostExplosionEffectPool: {fileID: 11400000, guid: 72f875269f3f08b4094d60685b30c6fb,
+    type: 2}
+  TargetEffectPool: {fileID: 11400000, guid: 12fe30143edd0f840a06d61371869a8c, type: 2}
+  MergeEffectPool: {fileID: 11400000, guid: b539b0e95a7767d42a39e4401003ebb7, type: 2}
+  FriendlyBaseOfUnitShootPool: {fileID: 11400000, guid: 4b5d9f4f215ac5240bcd441f7bdd00e9,
+    type: 2}
+  BaseOfUnitProjectileHitEffectOnTargetPool: {fileID: 11400000, guid: 9a3c8521eecff224fa3652ee339206d7,
+    type: 2}
+  BaseOfUnitProjectileHitEffectOnGroundPool: {fileID: 11400000, guid: 5d55df551fb639f4484a437622965364,
+    type: 2}
+  ExplosionBaseOfUnitRidePool: {fileID: 11400000, guid: ec3c58e6833444b48a45e7b907638c82,
+    type: 2}
