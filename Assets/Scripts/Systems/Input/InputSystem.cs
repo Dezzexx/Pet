@@ -48,13 +48,13 @@ namespace Client {
                         case InputTouchPhase.Ended:
                             TouchCompFilling(TouchPhase.Ended, Vector3.zero);
 
-                            if(_touchPool.Value.Has(_touchEntity)) _touchPool.Value.Del(_touchEntity);
+                            // if(_touchPool.Value.Has(_touchEntity)) _touchPool.Value.Del(_touchEntity);
                             break;
                         
                         case InputTouchPhase.Canceled:
                             TouchCompFilling(TouchPhase.Canceled, Vector3.zero);
 
-                            if(_touchPool.Value.Has(_touchEntity)) _touchPool.Value.Del(_touchEntity);
+                            // if(_touchPool.Value.Has(_touchEntity)) _touchPool.Value.Del(_touchEntity);
                             break;
 
                         default:

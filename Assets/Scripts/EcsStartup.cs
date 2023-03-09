@@ -86,6 +86,7 @@ namespace Client
                 // .Add(new CreditsSystem())
 
                 .Add(new PlayerMoveSystem())
+                .Add(new UnitAnimationSystem())
 
                 .Add(new GamePauseSystem())
 

@@ -6,6 +6,7 @@ namespace Client {
     sealed class PlayerInit : IEcsInitSystem {
         readonly EcsPoolInject<Player> _playerPool = default;
         readonly EcsPoolInject<View> _viewPool = default;
+        readonly EcsPoolInject<PlayerAnimator> _playerAnimatorPool = default;
 
         readonly EcsSharedInject<GameState> _state = default;
         readonly EcsWorldInject _world = default;
@@ -18,9 +19,13 @@ namespace Client {
 
             ref var playerComp = ref _playerPool.Value.Add(playerEntity);
             playerComp.PlayerMB = player;
+            playerComp.Speed = _state.Value.PlayerConfig.Speed;
             
             ref var viewComp = ref _viewPool.Value.Add(playerEntity);
             viewComp.Transform = player.transform;
+
+            ref var animatorComp = ref _playerAnimatorPool.Value.Add(playerEntity);
+            animatorComp.UnityAnimator = player.GetComponent<Animator>();
         }
     }
 }
