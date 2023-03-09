@@ -14,10 +14,7 @@ namespace Client {
         readonly EcsSharedInject<GameState> _state = default;
 
         private Vector3 _direction;
-        private float _rotationAngle;
-        private float _smoothRotationTime = 0.05f;
-        private float _smoothAngle;
-        private float _currentVelocity;
+        private float _smoothForLookAt = 20f;
         private bool _notRunning;
 
         public void Run (IEcsSystems systems) {
@@ -27,37 +24,26 @@ namespace Client {
                 ref var playerViewComp = ref _viewPool.Value.Get(_state.Value.PlayerEntity);
                 ref var playerComp = ref _playerPool.Value.Get(_state.Value.PlayerEntity);
 
+                _direction = new Vector3(inputComp.FloatingJoystick.Direction.normalized.x, 0f, inputComp.FloatingJoystick.Direction.normalized.y);
+                playerViewComp.Transform.position += _direction * Time.deltaTime * playerComp.Speed;
+                playerViewComp.Transform.LookAt(playerViewComp.Transform.position + _direction * _smoothForLookAt);
+
                 switch (touchComp.Phase)
                 {
                     case TouchPhase.Began:
-                        _direction = Vector3.zero;
                         _notRunning = true;
                         break;
 
                     case TouchPhase.Moved:
-                        if (_notRunning && !_animationSwitchEvent.Value.Has(_state.Value.PlayerEntity)) {
+                        if (_notRunning) {
                             _animationSwitchEvent.Value.Add(_state.Value.PlayerEntity).AnimationSwitcher = AnimationSwitchEvent.AnimationType.Run;
                             _notRunning = false;
                         }
-                        _direction = new Vector3(inputComp.FloatingJoystick.Direction.normalized.x, 0, inputComp.FloatingJoystick.Direction.normalized.y);
-                        playerViewComp.Transform.position += _direction * Time.deltaTime * playerComp.Speed;
-                        playerViewComp.Transform.LookAt(playerViewComp.Transform.position + _direction * 20f);
-                        break;
-
-                    case TouchPhase.Stationary:
-                        playerViewComp.Transform.position += _direction * Time.deltaTime * playerComp.Speed;
-                        // if (inputComp.FloatingJoystick.handle.localPosition != Vector3.zero) {
-                            // if (!_notRunning && !_animationSwitchEvent.Value.Has(_state.Value.PlayerEntity)) {
-                            //     _animationSwitchEvent.Value.Add(_state.Value.PlayerEntity).AnimationSwitcher = AnimationSwitchEvent.AnimationType.Idle;
-                            //     _notRunning = true;
-                            // }
-                        // }
                         break;
 
                     case TouchPhase.Ended:
-                        if (!_notRunning && !_animationSwitchEvent.Value.Has(_state.Value.PlayerEntity)) {
+                        if (!_notRunning) {
                             _animationSwitchEvent.Value.Add(_state.Value.PlayerEntity).AnimationSwitcher = AnimationSwitchEvent.AnimationType.Idle;
-                            _notRunning = true;
                         }
                         break;
 

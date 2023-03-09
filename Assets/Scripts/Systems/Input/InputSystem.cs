@@ -9,6 +9,8 @@ namespace Client {
     sealed class InputSystem : IEcsRunSystem {
         readonly EcsFilterInject<Inc<InputComponent>, Exc<DisableInputComponent>> filter = default;
         readonly EcsPoolInject<TouchComponent> _touchPool = default;
+        readonly EcsPoolInject<AnimationSwitchEvent> _animationSwitchEvent = default;
+        readonly EcsSharedInject<GameState> _state = default;
 
         private int _touchEntity = -1; 
         private Vector2 _initialPosition;
