@@ -58,6 +58,8 @@ namespace Client
                 .Add(new VibrationInit())
 
                 .Add(new PlayerInit())
+
+                .Add(new SprinklerInit())
                 
                 .Add(new InitCamera())
             ;
@@ -77,6 +79,7 @@ namespace Client
                 .Add(new InputSystem())
                 .Add(new VibrationSystem())
 
+                .Add(new SprinklerRotationSystem())
                 .Add(new CreateEffectEventSystem())         
             ;
 

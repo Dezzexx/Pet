@@ -20,6 +20,7 @@ namespace Client {
             ref var playerComp = ref _playerPool.Value.Add(playerEntity);
             playerComp.PlayerMB = player;
             playerComp.Speed = _state.Value.PlayerConfig.Speed;
+            playerComp.Rigidbody = player.GetComponent<Rigidbody>();
             
             ref var viewComp = ref _viewPool.Value.Add(playerEntity);
             viewComp.Transform = player.transform;

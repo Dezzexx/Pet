@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3f93fa56eb3693b40aea1047a55d15b5
+guid: 85316e6a5a2a2c047a384df19b383824
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
@@ -7,113 +7,20 @@ ModelImporter:
       1: 100000
     second: //RootNode
   - first:
-      1: 100002
-    second: SM_Bld_Barn_01_Door_01
-  - first:
-      1: 100004
-    second: SM_Bld_Barn_01_Door_02
-  - first:
-      1: 100006
-    second: SM_Bld_Barn_01_Door_03
-  - first:
-      1: 100008
-    second: SM_Bld_Barn_01_Door_04
-  - first:
-      1: 100010
-    second: SM_Bld_Barn_01_Shutter_01
-  - first:
-      1: 100012
-    second: SM_Bld_Barn_01_Shutter_02
-  - first:
       4: 400000
     second: //RootNode
-  - first:
-      4: 400002
-    second: SM_Bld_Barn_01_Door_01
-  - first:
-      4: 400004
-    second: SM_Bld_Barn_01_Door_02
-  - first:
-      4: 400006
-    second: SM_Bld_Barn_01_Door_03
-  - first:
-      4: 400008
-    second: SM_Bld_Barn_01_Door_04
-  - first:
-      4: 400010
-    second: SM_Bld_Barn_01_Shutter_01
-  - first:
-      4: 400012
-    second: SM_Bld_Barn_01_Shutter_02
   - first:
       23: 2300000
     second: //RootNode
   - first:
-      23: 2300002
-    second: SM_Bld_Barn_01_Door_01
-  - first:
-      23: 2300004
-    second: SM_Bld_Barn_01_Door_02
-  - first:
-      23: 2300006
-    second: SM_Bld_Barn_01_Door_03
-  - first:
-      23: 2300008
-    second: SM_Bld_Barn_01_Door_04
-  - first:
-      23: 2300010
-    second: SM_Bld_Barn_01_Shutter_01
-  - first:
-      23: 2300012
-    second: SM_Bld_Barn_01_Shutter_02
-  - first:
       33: 3300000
     second: //RootNode
   - first:
-      33: 3300002
-    second: SM_Bld_Barn_01_Door_01
-  - first:
-      33: 3300004
-    second: SM_Bld_Barn_01_Door_02
-  - first:
-      33: 3300006
-    second: SM_Bld_Barn_01_Door_03
-  - first:
-      33: 3300008
-    second: SM_Bld_Barn_01_Door_04
-  - first:
-      33: 3300010
-    second: SM_Bld_Barn_01_Shutter_01
-  - first:
-      33: 3300012
-    second: SM_Bld_Barn_01_Shutter_02
-  - first:
       43: 4300000
-    second: SM_Bld_Barn_01
-  - first:
-      43: 4300002
-    second: SM_Bld_Barn_01_Shutter_01
-  - first:
-      43: 4300004
-    second: SM_Bld_Barn_01_Door_02
-  - first:
-      43: 4300006
-    second: SM_Bld_Barn_01_Door_01
-  - first:
-      43: 4300008
-    second: SM_Bld_Barn_01_Door_03
-  - first:
-      43: 4300010
-    second: SM_Bld_Barn_01_Door_04
-  - first:
-      43: 4300012
-    second: SM_Bld_Barn_01_Shutter_02
+    second: SM_Prop_Crate_01
   - first:
       95: 9500000
     second: //RootNode
-  - first:
-      41386430: 2186277476908879412
-    second: ImportLogs
   externalObjects: {}
   materials:
     materialImportMode: 0
@@ -146,7 +53,7 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 0
+    meshCompression: 3
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
